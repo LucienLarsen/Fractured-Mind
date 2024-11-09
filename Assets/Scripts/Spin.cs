@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Spin : MonoBehaviour
 {
+    public float rotateSpeed = 10f;
+    public float rotationObject = 10f;
  
     void Update()
     {
-        transform.localRotation = Quaternion.Euler(10f, Time.time * 40f, 0);
+        transform.localRotation = Quaternion.Euler(rotationObject, Time.time * rotateSpeed, 0);
     }
 }
