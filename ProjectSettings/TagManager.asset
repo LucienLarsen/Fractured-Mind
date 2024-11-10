@@ -8,6 +8,9 @@ TagManager:
   - Checkpoint
   - Ladder
   - Pickupable
+  - Note
+  - grass
+  - plastic
   layers:
   - Default
   - TransparentFX
