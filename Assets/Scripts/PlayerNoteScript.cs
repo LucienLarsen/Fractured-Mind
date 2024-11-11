@@ -5,11 +5,13 @@ using UnityEngine;
 public class PlayerNoteScript : MonoBehaviour 
 { 
     private NoteScript activeNote; 
-    
+    private GameObject interactMessage; 
+ 
     // Start is called before the first frame update 
     void Start() 
     { 
-
+        interactMessage = GameObject.Find("InteractMessage"); 
+        interactMessage.SetActive(false); 
     } 
  
     // Update is called once per frame 
@@ -29,7 +31,8 @@ public class PlayerNoteScript : MonoBehaviour
     { 
         if (col.gameObject.tag == "Note") 
         { 
-            col.gameObject.TryGetComponent(out activeNote);  
+            col.gameObject.TryGetComponent(out activeNote); 
+            interactMessage.SetActive(true); 
         } 
     } 
  
@@ -39,7 +42,8 @@ public class PlayerNoteScript : MonoBehaviour
         { 
             if (activeNote.GetNoteStatus()) 
                 activeNote.ToggleNote(); 
-            activeNote = null;  
+            activeNote = null; 
+            interactMessage.SetActive(false); 
         } 
  
     } 

@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 98877
+  controlID: 105878
   draggingID: 0
 --- !u!114 &2
 MonoBehaviour:
@@ -150,7 +150,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 98878
+  controlID: 105879
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 17.376833, y: 16.250689, z: 272.5684}
+    m_Target: {x: 559.1886, y: 54, z: 7.001526}
     speed: 2
-    m_Value: {x: 17.376833, y: 16.250689, z: 272.5684}
+    m_Value: {x: 559.1886, y: 54, z: 7.001526}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -558,11 +558,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.0029868628, y: -0.91766375, z: -0.016299462, w: 0.40643618}
     speed: 2
-    m_Value: {x: -0.0017220131, y: -0.9158662, z: -0.013495768, w: 0.40125299}
+    m_Value: {x: -0.002975619, y: -0.91420925, z: -0.016238103, w: 0.40490615}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 103.077644
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 103.077644
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -676,9 +676,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: cc250300
-      m_LastClickedID: 206284
-      m_ExpandedIDs: 6a18feffd21dfeff0036feffac39feffb44bfeffce8cfeff201cffff6057ffff9a64ffffbc78ffffb4a9ffff88f9ffff58faffffb6faffff30fbffff785c00007c5c00008c5c00000c5d0000125d0000dc5d00003c5e0000465e00007e5e0000ee5e0000f45e0000165f0000385f00006a5f000012220300e6220300f8220300262303009a27030026280300502803009a280300be290300902a0300
+      m_SelectedIDs: 8a230300
+      m_LastClickedID: 205706
+      m_ExpandedIDs: 6a18feffd21dfeff0036feffac39feffb44bfeffce8cfeff201cffff6057ffff9a64ffffbc78ffffb4a9ffff88f9ffff58faffffb6faffff30fbffff785c00007c5c00008c5c00000c5d0000125d0000dc5d00003c5e0000465e00007e5e0000ee5e0000f45e0000165f0000385f00006a5f000012220300e6220300f8220300262303008e2703009a27030026280300502803009a280300be290300902a0300
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -773,8 +773,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Level 3 - Assets/Assets/Toby Fredson/Rocky Hills Environment - Light
-      Pack/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -789,8 +788,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c4610000
-    m_LastClickedID: 25028
+    m_SelectedIDs: 03ca9a3b
+    m_LastClickedID: 1000000003
     m_ExpandedIDs: 00000000166100001a6100001c6100001e6100002061000022610000286100002a6100002c6100003061000034610000386100003a6100003c610000fa61000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -844,8 +843,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: cc250300
-    m_LastClickedInstanceID: 206284
+    m_SelectedInstanceIDs: 8a230300
+    m_LastClickedInstanceID: 205706
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 00000000fad900003ada000040da0000
     m_RenameOverlay:
@@ -871,7 +870,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 372}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 234
